@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "MySQL and node program",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "console": "^0.7.2",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmg1478/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmg1478/Bamazon/issues"
+  },
+  "homepage": "https://github.com/jmg1478/Bamazon#readme"
+}
