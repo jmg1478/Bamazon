@@ -1,6 +1,6 @@
 # Bamazon
 </br>
-**_MySQL and node program_**
+*MySQL and node program*
 </br>
 This Program is to replicate a simpler form of amazon.
 </br>
