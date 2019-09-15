@@ -91,5 +91,3 @@ console.log(results);
             });
     });
 }
-
-console.log("Thank you. Goodbye");
