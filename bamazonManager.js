@@ -87,7 +87,7 @@ function manageStore() {
         function restockDatabase(id, stock_quantity) {
     connection.query('SELECT * FROM bamazondb.products WHERE id = ' + id, function(error, response) {
         if (error) { console.log(error) };
-        connection.query('UPDATE products SET quantity = stock_quantity + ' + stock_quantity + ' WHERE id = ' + id);
+        connection.query('UPDATE bamazondb.products SET stock_quantity = stock_quantity + ' + stock_quantity + ' WHERE id = ' + id);
         showProducts();
     });
 }; 
@@ -127,7 +127,7 @@ function manageStore() {
 }; 
 
         function addNewItemtoDB(item_name, department_name, price, stock_quantity) {
-  connection.query('INSERT INTO products (item_name, department_name, price, quantity) VALUES("' + item_name + '","' + department_name + '",' + price + ',' + stock_quantity +  ')');
+  connection.query('INSERT INTO products (item_name, department_name, price, stock_quantity) VALUES("' + item_name + '","' + department_name + '",' + price + ',' + stock_quantity +  ')');
             
     
         showProducts();
