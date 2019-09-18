@@ -10,3 +10,9 @@ When checking out the computer will let the member know 1 of 2 things
 1. Item is in stock and price for item and quantity
 2. Item is not in stock and apologize.
 In Manager you are able to manage your stock and add new items!!
+
+
+UPDATE 9/18/2018
+bamazonManager.js now works.
+git bash would not allow me to push said i needed a reason why.
+manually uploaded imagaes and manager.js update.
